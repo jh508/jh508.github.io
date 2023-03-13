@@ -2,7 +2,7 @@
 const vr_game = document.getElementById("vr_game");
 const zombie_game = document.getElementById("zombie_game");
 const traffic_game = document.getElementById("traffic_game");
-const indexUrl = "http://127.0.0.1:5500/";
+const indexUrl = "https://jh508.github.io/";
 
 vr_game.addEventListener("click", function(e){
     window.location.href = indexUrl + "eto.html";

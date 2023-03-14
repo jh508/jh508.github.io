@@ -81,7 +81,6 @@ button:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
   
 }
 
@@ -99,5 +98,9 @@ button:hover {
     text-align: center;
 }
 
-
+@media only screen and (max-width: 700px) {
+    .navBar-class{
+        margin-left: -150px;
+    }
+}
 

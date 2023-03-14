@@ -2,7 +2,7 @@
 const text = document.getElementById("changeText");
 const myBtn = document.getElementById("btn1");
 const gitIcon = document.getElementById("gitIcon");
-const indexUrl = "https://jh508.github.io/"
+const indexUrl = "http://127.0.0.1:5500/"
 const textArr = ["BACK-END", "FRONT-END", "GAME"];
 
 myBtn.addEventListener("click", function(e){

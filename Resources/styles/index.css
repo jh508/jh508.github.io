@@ -84,7 +84,9 @@ button:hover{
     background-color: #ff177a;
     box-shadow: 0 0 10px #b81159, 0 0 30px #b81159, 0 0 60px #b81159;
 }
-@media only screen and (min-width: 1400px) {
+
+
+@media only screen and (min-width: 1700px) {
 .hero-Icon{
     height: 400px;
     width: 400px;

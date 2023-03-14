@@ -78,15 +78,14 @@ button:hover {
 }
 
 .flex-grid {
-    position: relative;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
+  
 }
 
 .col img{
-    border: 5px solid #ff177a;
     margin: 20px;
     
 }
@@ -99,5 +98,6 @@ button:hover {
 .col h1{
     text-align: center;
 }
+
 
 

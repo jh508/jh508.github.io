@@ -83,12 +83,24 @@ button:hover {
     height: 500px;
 }
 
+
+.about h1 {
+    text-align: center;
+}
+
+.about p {
+    text-align: justify;
+}
+
 @media screen and (min-width: 1601px) {
+.flex-grid{
+    margin-left: 50px;
+}
 .about {
         position: absolute;
         padding-left: 30px;
         padding-right: 30px;
-        right: 150px;
+        right: 80px;
         height: 100%;
         width: 50%;
         box-shadow: 0 0 10px #b81159, 0 0 15px #b81159, 0 0 20px #b81159;
@@ -96,6 +108,10 @@ button:hover {
 .about h2{
     color: #ff177a;
     text-align: center;
+}
+
+.about p{
+    text-align: unset;
 }
 
 .about ul{
@@ -157,17 +173,4 @@ button:hover {
     margin-left: -10px;
         
 }
-}
-
-
-
-
-
-
-.about h1{
-    text-align: center;
-}
-
-.about p{
-    text-align: justify;
 }

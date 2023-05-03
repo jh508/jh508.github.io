@@ -4,7 +4,7 @@ const projectBtn = document.getElementById("projectBtn");
 const contactBtn = document.getElementById("contactBtn")
 const gitIcon = document.getElementById("gitIcon");
 
-const indexUrl = "http://127.0.0.1:5500/"
+const indexUrl = "jh508.github.io/"
 const textArr = ["BACK-END", "FRONT-END", "GAME"];
 
 projectBtn.addEventListener("click", function(e){

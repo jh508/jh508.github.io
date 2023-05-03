@@ -2,22 +2,27 @@
     display: flex;
 }
 
-
-li{
-    margin-left: 250px;
-    float: left;
+li {
+    text-decoration: none;
     list-style: none;
-    text-transform: uppercase;
-    font-size: large;
+    display: inline-block;
+    padding-right: 300px;
 }
 
-.logo{
-    padding-top: 0px;
-    color: white;
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: x-large;
-    text-align: center;
-    margin-left: 200px;
 }
+
+.logo {
+    justify-self: flex-start;
+    flex: 1;
+    font-size: x-large;
+    padding-left: 50px;
+}
+
 
 a{
     text-decoration: none;
@@ -51,7 +56,6 @@ body{
     padding-top: 200px;
     padding-left: 15%;
     display: block;
-
 }
 
 h1{

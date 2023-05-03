@@ -13,56 +13,52 @@
 </head>
 
 <body>
-    <div class="navBar-class">
-        <h1 class="logo">Joe <span style="color: #ff177a">Johnson</span></h1>
 
-        <ul class="navText">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+    <header>
+        <h1 class="logo">Joe<span style="color: #ff177a">Johnson</span></h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="flex-grid">
+        <div class="row">
+            <div class="page-title">
+                <h1>Traffic<span style="color: #ff177a"> Jam</span></h1>
+            </div>
+            <div class="col-images">
+                <img src="Resources/images/projects/traffic_jam/tj_1.png">
+                <img src="Resources/images/projects/traffic_jam/tj_2.png">
+                <img src="Resources/images/projects/traffic_jam/tj_3.png">
+            </div>
+        </div>
     </div>
 
-    <div class = "content-container">
-        <div class="about">
-            <h1>Traffic Jam</h1>
-        
+    <div class="flex-grid">
+        <div class="row">
+            <div class="col-about-title">
+                <h1><span style="color: #ff177a">About</span></h1>
+            </div>
+            <div class="col-about">
             <p>Traffic Jam is a 3D endless runner where the player must dodge traffic and collect as many coins and score as
                 they can.
                 On death, the user gets an updated high-score if they manage to beat their previously saved score and have coins
                 to
-                purchase new customization.</p>
-        
-            <p>The core gameplay loop is simple; Beat your previous high-score, collect as many coins as you can and customize
+                purchase new customization.
+            <br> <br>
+                The core gameplay loop is simple; Beat your previous high-score, collect as many coins as you can and customize
                 your
                 character through in-game purchases. In this project, I made use of 3D mathematics, common software engineering
                 design patterns, arrays,
-                loops and object instantiation alongside multiple performance enhancing techniques</p>
-        
-            <h2>Skills used:</h2>
-            <ul>
-                <li>C#</li>
-                <li>Arrays</li>
-                <li>3D mathematics</li>
-                <li>Performance</li>
-                <li>Loops</li>
-            </ul>
-        </div>
-        
-        <div class="flex-grid">
-            <div class="col">
-                <img src="Resources/images/projects/traffic_jam/tj_1.png" alt="">
-            </div>
-            <div class="col">
-                <img src="Resources/images/projects/traffic_jam/tj_2.png" alt="">
-            </div>
-            <div class="col">
-                <img src="Resources/images/projects/traffic_jam/tj_3.png" alt="">
+                loops and object instantiation alongside multiple performance enhancing techniques </p>
             </div>
         </div>
-
     </div>
-
 </body>
 
 </html>

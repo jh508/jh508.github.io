@@ -1,21 +1,22 @@
-.navBar-class {
-    display: flex;
+li {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding-right: 300px;
 }
 
-li {
-    margin-left: 250px;
-    float: left;
-    list-style: none;
-    text-transform: uppercase;
-    font-size: large;
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
 }
 
 .logo {
-    padding-top: 0px;
-    color: white;
+    justify-self: flex-start;
+    flex: 1;
     font-size: x-large;
-    text-align: center;
-    margin-left: 200px;
+    padding-left: 50px;
 }
 
 a {

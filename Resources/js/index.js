@@ -1,27 +1,31 @@
 
 const text = document.getElementById("changeText");
-const myBtn = document.getElementById("btn1");
+const projectBtn = document.getElementById("projectBtn");
+const contactBtn = document.getElementById("contactBtn")
 const gitIcon = document.getElementById("gitIcon");
-const indexUrl = "https://jh508.github.io/"
+
+const indexUrl = "http://127.0.0.1:5500/"
 const textArr = ["BACK-END", "FRONT-END", "GAME"];
 
-myBtn.addEventListener("click", function(e){
+projectBtn.addEventListener("click", function(e){
     window.location.href = indexUrl +"projects.html"
 })
 
+contactBtn.addEventListener("click", function(e){
+    window.location.href = indexUrl + "contact.html";
+})
 
-
-
-i = 3000
-count = 0;
-
-setInterval(function(){
+let count = 0;
+function typingEffect(){
     count++;
-    if(count >= textArr.length){
+    if(count == textArr.length){
         count = 0;
     }
 
-    text.innerText = "I'm a " + textArr[count] + " Developer";
+    text.innerHTML = "I'm a " + textArr[count] + " Developer";
 
-}, i)
+}
+
+setInterval(typingEffect, 3000);
+
 

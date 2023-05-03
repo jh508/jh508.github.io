@@ -11,56 +11,51 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
 </head>
 <body>
-        <div class="navBar-class">
-            <h1 class="logo">Joe <span style="color: #ff177a">Johnson</span></h1>
-        
-            <ul class="navText">
+
+    <header>
+            <h1 class="logo">Joe<span style="color: #ff177a">Johnson</span></h1>
+            <nav>
+                <ul class = "nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="contact.html">Contact</a></li>
-            </ul>
+                </ul>
+            </nav>
+    </header>
+        
+        
+        <div class = "flex-grid">
+            <div class = "row">
+                <div class = "page-title">
+                    <h1>Escape <span style="color: #ff177a">The Office</span></h1>
+                </div>
+                <div class="col-images">
+                    <img src="Resources/images/projects/vr_game.png">
+                    <img src="Resources/images/projects/traffic_jam/tj_1.png">
+                    <img src="Resources/images/projects/Zombie/zomb_3.png">
+                </div>
+            </div>
         </div>
 
-            <div class="about">
-                <h1>Escape The Office</h1>
-
-                <p>Escape The Office is a virtual reality game which makes use of researched techniques often used in the industry to
-                mitigate the effect of motion sickness. This project was created as my final year project at University and is a
-                playable experience which is welcoming to unexperienced VR users. This project was created using C#, Unity and Unity's XR plugin.</p>
-
-                <p>The core gameplay loop is simple: The player will spawn on a randomly selected map and must escape two rooms before the
-                timer expires. During this project, I sharpened my C# skills as well as my understanding the of Unity game engine. As this was my
-                second virtual reality playable experience, I had a lot to learn and had to adapt to a new type of development - which I
-                was able to do easily with the support of Unity XR.</p>
-
-                        <h2>Skills used:</h2>
-                        <ul>
-                            <li>C#</li>
-                            <li>Arrays</li>
-                            <li>3D mathematics</li>
-                            <li>Performance</li>
-                            <li>Loops</li>
-                            <li>Researched techniques to prevent motion sickness</li>
-                            <li>Advanced Locomotion</li>
-                            <li>Game state</li>
-                        </ul>
-                
-                
-
+        <div class="flex-grid">
+            <div class = "row">
+                <div class="col-about-title">
+                    <h1><span style="color: #ff177a">About</span></h1>
+                </div>
+                <div class="col-about">
+                    <p>Escape The Office is a virtual reality game which makes use of researched techniques often used in the industry
+                        to
+                        mitigate the effect of motion sickness. This project was created as my final year project at University and is a
+                        playable experience which is welcoming to unexperienced VR users. This project was created using C#, Unity and
+                        Unity's
+                        XR plugin. <br> <br>The core gameplay loop is simple: The player will spawn on a randomly selected map and must
+                        escape two rooms before the
+                        timer expires. During this project, I sharpened my C# skills as well as my understanding the of Unity game
+                        engine. As
+                        this was my second virtual reality playable experience, I had a lot to learn and had to adapt to a new type of
+                        development - which I was able to do easily with the support of Unity XR.</p>
+                </div>
             </div>
-            
-                    <div class="flex-grid">
-                        <div class="col">
-                            <img src="Resources/images/projects/ETO/eto_1.png" alt="">
-                        </div>
-                        <div class="col">
-                            <img src="Resources/images/projects/ETO/eto_2.png" alt="">
-                        </div>
-                        <div class="col">
-                            <img src="Resources/images/projects/ETO/eto_3.png" alt="">
-                        </div>
-                        
-                    </div>
-    
+        </div>
 </body>
 </html>

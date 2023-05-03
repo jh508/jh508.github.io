@@ -1,23 +1,25 @@
-.navBar-class {
-    display: flex;
+li {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding-right: 300px;
 }
 
-
-li {
-    margin-left: 250px;
-    float: left;
-    list-style: none;
-    text-transform: uppercase;
-    font-size: large;
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
 }
 
 .logo {
-    padding-top: 0px;
-    color: white;
+    justify-self: flex-start;
+    flex: 1;
     font-size: x-large;
-    text-align: center;
-    margin-left: 200px;
+    padding-left: 50px;
 }
+
+
 
 a {
     text-decoration: none;
@@ -77,30 +79,58 @@ button:hover {
     background-color: #ff177a;
 }
 
-.flex-grid {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  
-}
-
-.col img{
-    margin: 20px;
-    
-}
 
 .col img:hover{
-       border: 5px solid #ff177a;
-       cursor: pointer;
+    border: 3px solid #ff177a;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #b81159, 0 0 30px #b81159, 0 0 60px #b81159;
 }
 
-.col h1{
-    text-align: center;
+.col{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 70px;
+    flex: 1;
+    gap: 20px;
+
+}
+
+.col-title{
+    display: flex;
+    justify-content: center;
+}
+
+#lastImage{
+    align-self: flex-start;
+}
+
+
+.container{
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 @media only screen and (max-width: 700px) {
-    .navBar-class{
-        margin-left: -150px;
+    header {
+            flex-direction: column;
+            width: fit-content;
+        }
+    
+        .logo {
+            justify-self: center;
+            width: fit-content;
+        }
+
+        .container img{
+            width: 90%;
+        }
+
+
+    .col-title{
+        justify-content: center;
     }
 }
 

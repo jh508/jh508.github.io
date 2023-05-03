@@ -1,0 +1,132 @@
+.navBar-class{
+    display: flex;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding-right: 300px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.logo {
+    justify-self: flex-start;
+    flex: 1;
+    font-size: x-large;
+    padding-left: 50px;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none; 
+    color: #ff177a;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.name-class{
+    width: fit-content;
+}
+
+body{
+    background-image: url("/Resources/images/background/background.png");
+    font-family: 'Poppins', sans-serif;
+    background-size: cover;
+}
+
+.hero-Class{
+    padding-top: 200px;
+    padding-left: 15%;
+    display: block;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+
+}
+
+p{
+    color: white;
+    font-size: 20px;
+}
+
+button{
+    cursor: pointer;
+    color: white;
+    border: 1px solid #ff177a;
+    background-color: transparent;
+    height: 50px;
+    width: 200px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    
+}
+
+#btn1{
+    margin-right: 30px;
+}
+
+button:hover{
+    background-color: #ff177a;
+    box-shadow: 0 0 10px #b81159, 0 0 30px #b81159, 0 0 60px #b81159;
+}
+
+
+@media only screen and (min-width: 1550px) {
+.hero-Icon{
+    height: 400px;
+    width: 400px;
+    margin-left: 900px;
+    margin-top: -300px;
+    box-shadow: 0 0 10px #b81159, 0 0 10px #b81159, 0 0 30px #b81159;
+}
+}
+
+.hero-Icon img{
+    height: 400px;
+    width: 400px;
+}
+
+.Socials{
+    margin-top: -60px;
+    width: 30%;
+}
+
+#gitIcon:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

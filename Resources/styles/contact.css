@@ -107,9 +107,13 @@ label{
 
 /* Add a background color and some padding around the form */
 .container {
-    border-radius: 5px;
+    display: flex;
+    height: 70vh;
 
-    padding: 20px;
+}
+
+.row{
+    margin: auto;
 }
 
 
